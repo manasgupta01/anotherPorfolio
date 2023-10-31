@@ -18,9 +18,8 @@ function Home2() {
   <h1 style={{ fontSize: "2.6em" }}>
     LET ME <span className="purple"> INTRODUCE </span> MYSELF
   </h1>
-  <p className="home-about-body">
-    Hello there, I'm <b className="purple">Pavit Singh Narang</b>, a full-time <b className="purple">Roboticist</b> with a background in <b className="purple">Electronics and Communication</b>. Whether for work or for leisure, I enjoy exploring <b className="purple">ideas</b> that enhance people's lives and broaden the realm of possibilities. I'm a <b className="purple">sports aficionado</b> and love to explore nature. Currently, I'm pursuing <b className="purple">B.Tech in Electronics and Communication</b> from <b className="purple">Acropolis Institute of Technology and Research</b>. I've acquired <b className="purple">project and time management skills</b>, as well as the ability to <b className="purple">communicate</b> with teams and clients while effectively meeting <b className="purple">milestones and deadlines</b> during my graduation period. After my first year of graduation, I decided to explore the field of <b className="purple">robotics</b> and started making small approaches to fulfill my goal by working on various <b className="purple">projects</b>. I've been learning about <b className="purple">Robotics and Machine Learning</b>. Most recently, I've had the pleasure of developing <b className="purple">humanoid robots</b>, and now, I am once again set loose upon the world in search of the <b className="purple">next challenge</b>.
-  </p>
+  
+I'm <span className="purple">Pavit Singh Narang</span>, an <span className="purple">Ardent Roboticist</span> with a passion for enhancing lives. I explore ideas to improve life through <span className="purple">Robotics</span>. Beyond the confines of the laboratory, I immerse myself in the world of <span className="purple">nature</span> and embrace my fervor for <span className="purple">sports and athleticism </span>. I'm committed to creating <span className="purple">cutting-edge robots</span> and ready for the next exciting challenge! 🤖🌟🏀
 </Col>
 
 
