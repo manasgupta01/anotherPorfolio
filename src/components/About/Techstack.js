@@ -13,8 +13,10 @@ import {
 import {
   SiRedis,
   SiFirebase,
+	SiRos,
   SiNextdotjs,
   SiSolidity,
+	SiRaspberrypi,
   SiPostgresql,
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
@@ -29,7 +31,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiRos />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
@@ -38,7 +40,7 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiRaspberrypi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
