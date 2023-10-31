@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import traffic from "../../Assets/Projects/traffic.jpeg";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import universal from "../../Assets/Projects/universal.jpg";
+import sam from "../../Assets/Projects/sam.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import home from "../../Assets/Projects/home.jpg";
 
 function Projects() {
   return (
@@ -23,10 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={home}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              title="House Price Prediction"
+              description="Regression model which predicts home prices based on the learnings from the features.House price prediction can help the developer determine the selling price of a house and can help the customer to arrange the right time to purchase a house.
+               There are three factors that influence the price of a house which include physical conditions, concept and location."
               ghLink="https://github.com/soumyajit4419/Chatify"
               demoLink="https://chatify-49.web.app/"
             />
@@ -34,10 +35,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={sam}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="SAM"
+              description="Singulation Automation Machine, A CNC based robotic arm which solves the problem statement given by flipkart ."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
@@ -45,10 +46,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={universal}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              title="Universal Power Supply"
+              description="A circuit which converts AC supply (220V) to DC (12V and 5V).A universal power supply is a device that steps 110 or 220-volt AC household current down and converts it to DC so it can power an electronic device, appliance, or some other electric equipment.Laptops and household appliances, as well as audio and video and other other electronic equipment, come with their own mobile power supply so you can run them from a household circuit."
               ghLink="https://github.com/soumyajit4419/Editor.io"
               demoLink="https://editor.soumya-jit.tech/"              
             />
@@ -56,10 +57,13 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={traffic}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="Traffic Robot"
+              description="Robot cop manages high density traffic at Indore's SICA School Junction Indore has one of the highest vehicle densities in 
+              the country has set up an AI robot at an intersection in the city to manage the traffic on trial basis. Police commissioner reviewed it and appreciated its functioning, 
+              said U B Singh, HoD of Acropolis Institute, which designed the Rs 4 Lakh robot."
+              
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />

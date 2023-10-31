@@ -8,16 +8,17 @@ import {
   DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
   SiFirebase,
 	SiRos,
   SiNextdotjs,
-  SiSolidity,
+  SiArduino,
 	SiRaspberrypi,
-  SiPostgresql,
+  SiMysql,
+  SiOpencv,
+  SiPytorch,
+  SiTensorflow
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -55,16 +56,22 @@ function Techstack() {
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiArduino />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiOpencv />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPytorch />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        < SiTensorflow/>
       </Col>
     </Row>
   );
